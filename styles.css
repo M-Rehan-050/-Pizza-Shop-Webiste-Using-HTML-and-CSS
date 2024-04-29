@@ -1,0 +1,312 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+    box-sizing: border-box;
+    }
+body {
+    background-color: black;
+}
+header{
+    position:sticky;
+    top: -10px;
+}
+nav {
+    position: absolute;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+    display: flex;
+    background: transparent;
+    padding: 10px 30px;
+    right: 0;
+}
+
+
+nav ul {
+    display: flex;
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+    margin: 10px;
+    margin-top: 18px;
+}
+
+ul li a:hover {
+    color: yellow;
+}
+
+a {
+    text-decoration: none;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+span h3 {
+    margin-left: 20px;
+    color: white;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+
+.main-services {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+
+    color: white;
+    background: url("servicebg.jpeg");
+    background-size: 100% 100%;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: white;
+    background: url("pizza.jpg") no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+}
+
+.home-right {
+    padding: 0px 15px;
+    text-align: left;
+    width: 40%;
+}
+
+.home-right h1 {
+    padding-bottom: 20px;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.home-right p {
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: red;
+    padding: 8px 16px;
+    font-weight: 700;
+    color: white;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+
+.btn:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+.btnl:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+.btn-log {
+    margin-left: 12px;
+    background: red;
+    padding: 8px 16px;
+    font-weight: 700;
+    color: white;
+    margin-top: 10px;
+    border-radius: 12px;
+}
+
+#up {
+    padding: 8px 10px;
+    background-color: green;
+}
+
+#up:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+.main-services h1 {
+    padding-bottom: 15px;
+    padding-left: 100px;
+}
+
+.card-container {
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 85%;
+}
+
+.card {
+    width: 300px;
+    border-radius: 15px;
+    margin-bottom: 18px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.card div {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 6px 8px;
+    width: 100%;
+    margin-top: -5px;
+    border-radius: 6px;
+
+}
+
+.card div a {
+    color: red;
+}
+
+.card div span {
+    color: yellow;
+}
+
+.card div a {
+    color: red;
+}
+
+footer {
+    text-align: center;
+    background-color: #ba0001;
+    border: 2px solid #ba0001;
+}
+
+.about-main,  .about-content, p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-container {
+    width: 400px;
+}
+
+.about-container img {
+    width: 350px;
+}
+
+.about-content{
+    width: 60%;
+}
+h2 ,h3{
+    font-size: 1.4rem;
+    font-weight:900;
+}
+.about-content p{
+    margin: 14px 0 ;
+    font-size: 1.255rem;
+
+}
+section{
+    width: 100vw;
+    height: 85vh;
+    margin-top: 70px;
+    
+}
+.heading{
+    margin:2px auto;
+    /* margin-bottom: 100px; */
+    width: 150px;
+}
+form{
+max-width: 40rem;
+margin: 20px auto;
+text-align: center;
+
+}
+
+.contact form .input-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact form .input-box input,
+.contact form textarea {
+    width: 100%;
+    padding: 13px;
+    font-size: 16px;
+    color: #fff;
+    background: #323936;
+    border-radius: .8rem;
+    margin: 10px 0px;
+}
+
+.contact form .input-box input{
+    width: 48%;
+}
+
+.contact form textarea{
+    resize: none;
+}
+
+.contact form .btn{
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.reg{
+
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.reg input{
+    width: 350px;
+    color: black;
+    padding: 10px;
+    outline: none;
+    margin: 6px;
+    border-radius: 5px;
+}
+
+#pass{
+    margin-bottom: 20px;
+}
+
+.placed-order{
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.btn-con{
+    padding: 30px;
+}
+
+#conf{
+    background-color: greenyellow;
+    color: black;
+}
+#conf:hover{
+    background-color: white;
+    color: black;
+}
+.btn-con .btn:hover{
+    background-color: white;
+    color: black;
+}
